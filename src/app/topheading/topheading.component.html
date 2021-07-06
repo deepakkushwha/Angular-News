@@ -1,0 +1,15 @@
+<div class="border_margin">
+<div class="container-fluid  mt-5">
+  <h1>Tranding News</h1>
+  <div class="row">
+   
+      <div *ngFor="let h of topHeading" class="col-lg-3">
+        <div class="box">
+        <img src="{{ h.urlToImage }}" width="100%" />
+        <h5>{{ h.title }}</h5>
+      <a href="{{ h.url }}" class="btn btn-dark" id="hover_Color" target="blank">Read more...</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>

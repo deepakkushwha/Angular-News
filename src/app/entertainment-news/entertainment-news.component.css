@@ -1,0 +1,29 @@
+.box{
+    background-color: rgb(245, 243, 243);
+    padding: 10% 10% ;
+    border-color: black;
+    border-width: 1px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-bottom: 20px;
+ }
+ .box h5{
+     font-size: 16px;
+     font-family:cursive
+     
+ 
+ }
+ #hover_Color:hover{
+ background-color: white;
+ color: black;
+ box-shadow: 5px 5px ;
+ }
+ #hover_Color{
+     border-radius: 10px;
+ 
+ }
+ .border_margin{
+     margin: 0;
+     padding: 0;
+ 
+ }
